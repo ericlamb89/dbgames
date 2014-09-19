@@ -1,0 +1,34 @@
+#header{
+	position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+    background-color:#2b3e50;
+	
+}
+
+#header-text{
+	margin-right:50;
+}
+
+#intro{
+	margin-top:50px;
+}
+
+.jumbotron{
+	text-align: center;
+	position: static;
+	margin-top:0;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:0;
+	height: 600px;
+}
+.smiley{
+	height: 50%;
+}
+
+#arrow1{
+	font-size:6em;
+	}
