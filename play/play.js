@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var numQuestions; 
 	var questions;
 	$.getJSON("https://spreadsheets.google.com/feeds/list/0AgMqbnja8Nj6dDNPUmE4ZDQxcGxRdTUxblBiRnhZdWc/od6/public/values?alt=json", function(data) {
-		$("#question").replaceWith("<h2 id=\"question\">Ready!</h2>");
+		$("#question").replaceWith("<h1 id=\"question\">Ready!</h1>");
 		questions = data.feed.entry;
 		numQuestions = questions.length;
 		
@@ -25,7 +25,7 @@ $(document).ready(function(){
 		var questionID = getQuestion();
 		questionsPlayed.push(questionID);
 		var question = JSON.stringify(questions[questionID].gsx$question.$t);
-		$("#question").replaceWith("<h2 id=\"question\">"+question+"</h2>");
+		$("#question").replaceWith("<h1 id=\"question\">"+question+"</h1>");
 		//alert(question);
 		$(this).blur();
 	});	
