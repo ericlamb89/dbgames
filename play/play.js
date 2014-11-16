@@ -17,8 +17,13 @@ $(document).ready(function(){
 
 	function getQuestion(){
 		var questionCurr;
-		do  {questionCurr = Math.floor(Math.random() * numQuestions);}
-		while(questionsPlayed.indexOf(questionCurr) > 0);
+		if(numQuestions > 0){
+			do  {
+					questionCurr = Math.floor(Math.random() * numQuestions);
+				}
+			while(questionsPlayed.indexOf(questionCurr) > 0);
+		}
+		
 		return questionCurr;
 	}
 
