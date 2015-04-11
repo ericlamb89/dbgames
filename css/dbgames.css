@@ -1,21 +1,9 @@
-@font-face {
-    font-family: "Myriad Pro";
-    src: url(fonts/MYRIADPRO-REGULAR.OTF);
-}
-
-@font-face {
-    font-family: "Myriad Pro";
-    font-weight:bold;
-    src: url(fonts/MYRIADPRO-BOLD.OTF);
-}
-
 html{
   height: 100%;
 }
 
 body{
   padding-top:50px;
-  font-family: "Myriad Pro";
   color: black;
   backrground-color: #ffffff;
 }
