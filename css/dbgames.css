@@ -1,0 +1,74 @@
+html{
+  height: 100%;
+}
+
+body{
+  padding-top:50px;
+  font-family: "Myriad Pro";
+  color: black;
+  backrground-color: #ffffff;
+}
+
+#navbar{
+  background-color:#ffffff;
+  color: black;
+  padding-right: 5px;
+}
+
+#white-icon{
+  margin-top:50px;
+  padding-right:0px;
+  position:relative;
+  right:0;
+}
+
+#Impressions{
+  padding-top:129px;
+  padding-bottom:0px;
+}
+
+#logo-row{
+  background-color:black;
+  font-size: 2.25em;
+  font-weight: bold;
+  color: white;
+}
+
+#logo-row-white{
+  font-size: 2.00em;
+  font-weight: bold;
+  color: black;
+}
+
+#game-copy,#how-to-play{
+  padding: 10px;
+  font-size:1.5em;
+}
+
+#how-to-play{
+  text-align:center;
+}
+
+#app-store-badge{
+  padding-left:50px;
+  padding-top:100px;
+}
+
+#screenshots{
+  padding-bottom:10px;
+}
+
+#questions{
+  padding-top:50px;
+  padding-bottom:50px;
+  background-color:black;
+  font-size: 1.75em;
+  color: white;
+  text-align: center;
+}
+
+.outcome{
+  display:block;
+  margin-left:auto;
+  margin-right:auto;
+}
