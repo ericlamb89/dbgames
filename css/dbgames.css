@@ -70,8 +70,44 @@ body{
   text-align: center;
 }
 
+#contact{
+  background-color:black;
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+#questions_title{
+  margin-top:25px;
+  margin-bottom:25px;
+  font-size:1.5em;
+  font-style:normal;
+}
+
+#contact_us{
+  margin-bottom:100px;
+}
+
+a,a:visited{
+  color: white;
+  text-decoration: none;
+  target: "_blank";
+}
+
+a:hover{
+    color: gray;
+}
+
+#copyright{
+  font-size:0.5em;
+}
+
+
+
 .outcome{
   display:block;
   margin-left:auto;
   margin-right:auto;
+  margin-bottom: 25px;
 }
