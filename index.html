@@ -17,6 +17,9 @@
 		<!--my css-->
 		<link rel="stylesheet" href="css/dbgames.css">
 
+		<!--my scripts-->
+		<script src="scripts/questions.js"></script>
+
 		<!--favicons-->
 		<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
 		<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
@@ -108,6 +111,7 @@
 					</div>
 				</div>
 				<div class="col-sm-2"></div>
+
 			</div>
 			<div class="row" id="how-to-play">
 				<div class="col-sm-2"></div>
@@ -120,9 +124,59 @@
 				<div class="col-sm-4"><img class="outcome" src="images/outcome-3.png"></div>
 			</div>
 			<div class="row" id="contact">
-				<div class="col-sm-12" id="questions_title">Questions?</div>
-				<div class="col-sm-6" id="contact_us"><a href="hello@dbgamesinc.com" target="_blank">Hit Us Up</br>hello@dbgamesinc.com</a></div>
-				<div class="col-sm-6" id="contact_us"><a href="http://eepurl.com/bjEMMz" target="_blank">Get Updates</a></div>
+				<div class="col-sm-12" id="questions_title">Questions and Ideas</div>
+				<div class="col-sm-4" id="contact_us"><a href="hello@dbgamesinc.com" target="_blank">Hit Us Up</br>hello@dbgamesinc.com</a></div>
+				<div class="col-sm-4" id="contact_us"><a href="http://eepurl.com/bjEMMz" target="_blank">Get Updates</a></div>
+				<div class="col-sm-4" id="contact_us">
+					<div>Suggest a Question!</div>
+					<form class="form-horizontal" id="suggestion">
+						<fieldset id="form">
+						<!-- Text input-->
+
+						<div class="control-group">
+							<label class="control-label" for="name"></label>
+							<div class="controls">
+								<input id="name" name="name" type="text" placeholder="your name" class="input-large">
+
+							</div>
+						</div>
+
+						<!-- Text input-->
+						<div class="control-group">
+							<label class="control-label" for="email"></label>
+							<div class="controls">
+								<input id="email" name="email" type="text" placeholder="your email address" class="input-large">
+
+							</div>
+						</div>
+
+
+
+
+
+								<!-- Textarea -->
+
+						<div class="control-group">
+							<label class="control-label" for="question"></label>
+							<div class="controls">
+								<textarea id="question" name="question" placeholder="your awesome question..." rows="5"></textarea>
+							</div>
+
+						</div>
+
+
+
+						<!-- Button -->
+						<div class="control-group">
+						  <label class="control-label" for="submit"></label>
+						  <div class="controls">
+						    <button id="submit" name="submit" class="btn btn-default">Submit</button>
+						  </div>
+						</div>
+						</br>
+						</fieldset>
+					</form>
+				</div>
 				<div class="col-sm-12" id="copyright">Copyright © 2015 DBGames, All rights reserved.</div>
 			</div>
 		</div>

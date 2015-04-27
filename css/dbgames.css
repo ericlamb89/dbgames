@@ -78,6 +78,15 @@ body{
   text-align: center;
 }
 
+#suggestion{
+  font-size:0.75em;
+  color:black;
+  font-weight: lighter;
+  text-align:center;
+}
+
+
+
 #questions_title{
   margin-top:25px;
   margin-bottom:25px;
@@ -103,8 +112,23 @@ a:hover{
   font-size:0.5em;
 }
 
+input,textarea{
+  border-radius:5px;
+  padding:5px;
 
+}
 
+#submit{
+  text-align:right;
+}
+
+#success{
+
+  margin-right:auto;
+  margin-left:auto;
+  max-width:300px;
+  font-size:.75em;
+}
 .outcome{
   display:block;
   margin-left:auto;
