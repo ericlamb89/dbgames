@@ -11,6 +11,7 @@
 		<!-- jQuery library -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 
+
 		<!-- Latest compiled JavaScript -->
 		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
@@ -57,6 +58,7 @@
 					      <ul class="nav navbar-nav navbar-right">
 					        <li><a href="#">DOWNLOAD</a></li>
 					        <li><a href="#questions">HOW TO PLAY</a></li>
+									<li><a href="#contact">CONTACT US</a></li>
 					      </ul>
 					    </div>
 					</nav>
@@ -123,11 +125,16 @@
 				<div class="col-sm-4"><img class="outcome" src="images/outcome-2.png"></div>
 				<div class="col-sm-4"><img class="outcome" src="images/outcome-3.png"></div>
 			</div>
+			<div class="row" id="contact"></div>
 			<div class="row" id="contact">
 				<div class="col-sm-12" id="questions_title">Questions and Ideas</div>
-				<div class="col-sm-4" id="contact_us"><a href="hello@dbgamesinc.com" target="_blank">Hit Us Up</br>hello@dbgamesinc.com</a></div>
-				<div class="col-sm-4" id="contact_us"><a href="http://eepurl.com/bjEMMz" target="_blank">Get Updates</a></div>
-				<div class="col-sm-4" id="contact_us">
+				<div class="col-sm-6" id="contact_us">
+					<div><a href="hello@dbgamesinc.com" target="_blank">Hit Us Up</br>hello@dbgamesinc.com</a></div>
+					</br>
+					</br>
+					<div><a href="http://eepurl.com/bjEMMz" target="_blank">Get Updates</a></div>
+				</div>
+				<div class="col-sm-6" id="contact_us">
 					<div>Suggest a Question!</div>
 					<form class="form-horizontal" id="suggestion">
 						<fieldset id="form">
@@ -180,5 +187,9 @@
 				<div class="col-sm-12" id="copyright">Copyright © 2015 DBGames, All rights reserved.</div>
 			</div>
 		</div>
+		<script src="scripts/jquery.bootstrap-autohidingnavbar.js"></script>
+		<script>$(".navbar-fixed-top").autoHidingNavbar();</script>
 	</body>
+
+
 </HTML>

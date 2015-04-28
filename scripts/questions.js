@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
 	$("#submit").click(function(){
     event.preventDefault();
       //alert(name + email + question);
