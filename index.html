@@ -41,9 +41,47 @@
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="msapplication-TileImage" content="/mstile-144x144.png">
 		<meta name="theme-color" content="#ffffff">
+
+
+
 	</head>
 
 	<body>
+		<!-- Google Code for Download button Conversion Page
+		In your html page, add the snippet and call
+		goog_report_conversion when someone clicks on the
+		chosen link or button. -->
+		<script type="text/javascript">
+			/* <![CDATA[ */
+			goog_snippet_vars = function() {
+				var w = window;
+				w.google_conversion_id = 944698669;
+				w.google_conversion_label = "jTZICLfm2F4Qreq7wgM";
+				w.google_remarketing_only = false;
+				w.google_conversion_value = 0;
+			}
+			// DO NOT CHANGE THE CODE BELOW.
+			goog_report_conversion = function(url) {
+				goog_snippet_vars();
+				window.google_conversion_format = "3";
+				window.google_is_call = true;
+				var opt = new Object();
+				opt.onload_callback = function() {
+				if (typeof(url) != 'undefined') {
+					window.location = url;
+				}
+			}
+			var conv_handler = window['google_trackConversion'];
+			if (typeof(conv_handler) == 'function') {
+				conv_handler(opt);
+			}
+		}
+		/* ]]> */
+		</script>
+		<script type="text/javascript"
+			src="//www.googleadservices.com/pagead/conversion_async.js">
+		</script>
+
 		<div class="containter-fluid">
  			<div class="row" id="header-row">
 				<div class="col-xs-12">
@@ -83,7 +121,10 @@
 				<div class="col-sm-2"></div>
 				<div class="col-sm-4" id="game-copy">
 					<div>Impressions is our newest drinking game that reveals what you think of your friends, what your friends think of you, and better yet, what you think of yourself.</div>
-					<div id="app-store-badge"><a href="https://itunes.apple.com/us/app/impressions-a-drinking-game/id971726367?mt=8"><img src="images/app-store-badge.svg"></a></div>
+					<div id="app-store-badge">
+						<a href="https://itunes.apple.com/us/app/impressions-a-drinking-game/id971726367?mt=8" ><img src="images/app-store-badge.svg" onClick="goog_report_conversion
+						('https://itunes.apple.com/us/app/impressions-a-drinking-game/id971726367?mt=8')"></a>
+					</div>
 				</div>
 				<div class="col-sm-4"><img id="screenshots" src="images/screenshots.png"></div>
 				<div class="col-sm-2"></div>
